@@ -1,0 +1,19 @@
+# Local Netlify folder
+.netlify
+node_modules
+
+themeProj/
+**/node_modules/
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+
+# Local Firebase configuration
+public/js/firebase-config.js
